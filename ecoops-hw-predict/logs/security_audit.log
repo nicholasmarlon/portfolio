@@ -1,0 +1,2 @@
+2026-10-04 21:04:05 [INFO] [SECURITY_AUDIT] - EVENT: DB_LOAD | USER: system_etl_bot | STATUS: SUCCESS | DESC: Telemetria carregada com integridade verificada.
+2026-10-04 21:04:05 [WARNING] [SECURITY_AUDIT] - EVENT: UNAUTHORIZED_ACCESS_ATTEMPT | USER: unknown_ip | STATUS: WARNING | DESC: Tentativa de acesso restrito bloqueada.
