@@ -1,58 +1,59 @@
-# 💻 EcoOps: Multi-Disciplinary Hardware & Governance Analytics Platform
-
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-App-red.svg)](https://streamlit.io/)
-[![SQLite/SQL](https://img.shields.io/badge/Database-Relational-green.svg)](https://www.sqlite.org/)
-[![Security Audit](https://img.shields.io/badge/Governance-Audit%20Logging-orange.svg)](https://github.com/)
-
-**EcoOps** é uma plataforma avançada desenvolvida para monitoramento preditivo de ativos de hardware (focada em FinOps e ESG), unindo pilares essenciais de **Ciência de Dados**, **Administração de Bancos de Dados (DBA)** e **Cibersegurança/Governança**.
-
----
-
-## 🏗️ Arquitetura do Projeto
-
-1. **Camada de Dados & DBA (database/ & src/database_loader.py)**:
-   - Modelagem relacional normalizada (devices e attery_telemetry).
-   - Integridade referencial com chaves estrangeiras (FOREIGN KEY) e restrições de unicidade.
-   - Índices otimizados (CREATE INDEX) para alta performance de consultas analíticas.
-   
-2. **Camada de Governança e Segurança (src/audit_logger.py)**:
-   - Sistema estruturado de logs de auditoria (security_audit.log).
-   - Rastreabilidade de eventos de sistema, tentativas de acesso e status de carregamento ETL.
-
-3. **Camada de Análise Preditiva e BI (model.py & pp.py)**:
-   - Algoritmo de estimativa de vida útil remanescente (RUL).
-   - Dashboard interativo corporativo desenvolvido em Streamlit consumindo dados persistidos.
-
----
-
-## 🚀 Como Executar o Projekte Localmente
-
-### 1. Clonar o repositório
-\\\ash
-git clone https://github.com/nicholasmarlon/portfolio.git
-cd portfolio/ecoops-hw-predict
-\\\
-
-### 2. Instalar as dependências
-\\\ash
-pip install -r requirements.txt
-\\\
-
-### 3. Executar o carregador de dados (ETL & DBA)
-\\\ash
-py src/database_loader.py
-\\\
-
-### 4. Iniciar o Dashboard Interativo
-\\\ash
-py -m streamlit run app.py
-\\\
-
----
-
-## 👤 Autor
-
-Desenvolvido por **Nicholas Marlon Barbosa de Souza**  
-- [LinkedIn](https://www.linkedin.com/in/nicholas-marlon-barbosa-de-souza-169b598b/)  
-- [GitHub](https://github.com/nicholasmarlon)
+b#b b💻b bEbcbobObpbsb:b bMbublbtbib-bDbibsbcbibpblbibnbabrbyb bHbabrbdbwbabrbeb b&b bGbobvbebrbnbabnbcbeb bAbnbablbybtbibcbsb bPblbabtbfbobrbmb
+b
+b[b!b[bPbybtbhbobnb]b(bhbtbtbpbsb:b/b/bibmbgb.bsbhbibeblbdbsb.bibob/bbbabdbgbeb/bPbybtbhbobnb-b3b.b1b0b%b2bBb-bbblbubeb.bsbvbgb)b]b(bhbtbtbpbsb:b/b/bwbwbwb.bpbybtbhbobnb.bobrbgb/b)b
+b[b!b[bSbtbrbebabmblbibtb]b(bhbtbtbpbsb:b/b/bibmbgb.bsbhbibeblbdbsb.bibob/bbbabdbgbeb/bSbtbrbebabmblbibtb-bAbpbpb-brbebdb.bsbvbgb)b]b(bhbtbtbpbsb:b/b/bsbtbrbebabmblbibtb.bibob/b)b
+b[b!b[bSbQbLbibtbeb/bSbQbLb]b(bhbtbtbpbsb:b/b/bibmbgb.bsbhbibeblbdbsb.bibob/bbbabdbgbeb/bDbabtbabbbabsbeb-bRbeblbabtbibobnbablb-bgbrbebebnb.bsbvbgb)b]b(bhbtbtbpbsb:b/b/bwbwbwb.bsbqblbibtbeb.bobrbgb/b)b
+b[b!b[bSbebcbubrbibtbyb bAbubdbibtb]b(bhbtbtbpbsb:b/b/bibmbgb.bsbhbibeblbdbsb.bibob/bbbabdbgbeb/bGbobvbebrbnbabnbcbeb-bAbubdbibtb%b2b0bLbobgbgbibnbgb-bobrbabnbgbeb.bsbvbgb)b]b(bhbtbtbpbsb:b/b/bgbibtbhbubbb.bcbobmb/b)b
+b
+b*b*bEbcbobObpbsb*b*b béb bubmbab bpblbabtbabfbobrbmbab babvbabnbçbabdbab bdbebsbebnbvboblbvbibdbab bpbabrbab bmbobnbibtbobrbabmbebnbtbob bpbrbebdbibtbibvbob bdbeb babtbibvbobsb bdbeb bhbabrbdbwbabrbeb b(bfbobcbabdbab bebmb bFbibnbObpbsb beb bEbSbGb)b,b bubnbibnbdbob bpbiblbabrbebsb bebsbsbebnbcbibabibsb bdbeb b*b*bCbibêbnbcbibab bdbeb bDbabdbobsb*b*b,b b*b*bAbdbmbibnbibsbtbrbabçbãbob bdbeb bBbabnbcbobsb bdbeb bDbabdbobsb b(bDbBbAb)b*b*b beb b*b*bCbibbbebrbsbebgbubrbabnbçbab/bGbobvbebrbnbabnbçbab*b*b.b
+b
+b-b-b-b
+b
+b#b#b b🏗b️b bAbrbqbubibtbebtbubrbab bdbob bPbrbobjbebtbob
+b
+b1b.b b*b*bCbabmbabdbab bdbeb bDbabdbobsb b&b bDbBbAb b(bdbabtbabbbabsbeb/b b&b bsbrbcb/bdbabtbabbbabsbeb_blbobabdbebrb.bpbyb)b*b*b:b
+b b b b-b bMbobdbeblbabgbebmb brbeblbabcbibobnbablb bnbobrbmbablbibzbabdbab b(bdbebvbibcbebsb beb bbabtbtbebrbyb_btbeblbebmbebtbrbyb)b.b
+b b b b-b bIbnbtbebgbrbibdbabdbeb brbebfbebrbebnbcbibablb bcbobmb bcbhbabvbebsb bebsbtbrbabnbgbebibrbabsb b(bFbObRbEbIbGbNb bKbEbYb)b beb brbebsbtbrbibçbõbebsb bdbeb bubnbibcbibdbabdbeb.b
+b b b b-b bÍbnbdbibcbebsb bobtbibmbibzbabdbobsb b(bCbRbEbAbTbEb bIbNbDbEbXb)b bpbabrbab bablbtbab bpbebrbfbobrbmbabnbcbeb bdbeb bcbobnbsbublbtbabsb babnbablbíbtbibcbabsb.b
+b b b b
+b2b.b b*b*bCbabmbabdbab bdbeb bGbobvbebrbnbabnbçbab beb bSbebgbubrbabnbçbab b(bsbrbcb/babubdbibtb_blbobgbgbebrb.bpbyb)b*b*b:b
+b b b b-b bSbibsbtbebmbab bebsbtbrbubtbubrbabdbob bdbeb blbobgbsb bdbeb babubdbibtbobrbibab b(bsbebcbubrbibtbyb_babubdbibtb.blbobgb)b.b
+b b b b-b bRbabsbtbrbebabbbiblbibdbabdbeb bdbeb bebvbebnbtbobsb bdbeb bsbibsbtbebmbab,b btbebnbtbabtbibvbabsb bdbeb babcbebsbsbob beb bsbtbabtbubsb bdbeb bcbabrbrbebgbabmbebnbtbob bEbTbLb.b
+b
+b3b.b b*b*bCbabmbabdbab bdbeb bAbnbáblbibsbeb bPbrbebdbibtbibvbab beb bBbIb b(bmbobdbeblb.bpbyb b&b bbpbpb.bpbyb)b*b*b:b
+b b b b-b bAblbgbobrbibtbmbob bdbeb bebsbtbibmbabtbibvbab bdbeb bvbibdbab búbtbiblb brbebmbabnbebsbcbebnbtbeb b(bRbUbLb)b.b
+b b b b-b bDbabsbhbbbobabrbdb bibnbtbebrbabtbibvbob bcbobrbpbobrbabtbibvbob bdbebsbebnbvboblbvbibdbob bebmb bSbtbrbebabmblbibtb bcbobnbsbubmbibnbdbob bdbabdbobsb bpbebrbsbibsbtbibdbobsb.b
+b
+b-b-b-b
+b
+b#b#b b🚀b bCbobmbob bEbxbebcbubtbabrb bob bPbrbobjbebkbtbeb bLbobcbablbmbebnbtbeb
+b
+b#b#b#b b1b.b bCblbobnbabrb bob brbebpbobsbibtbóbrbibob
+b\b\b\bbabsbhb
+bgbibtb bcblbobnbeb bhbtbtbpbsb:b/b/bgbibtbhbubbb.bcbobmb/bnbibcbhboblbabsbmbabrblbobnb/bpbobrbtbfboblbibob.bgbibtb
+bcbdb bpbobrbtbfboblbibob/bebcbobobpbsb-bhbwb-bpbrbebdbibcbtb
+b\b\b\b
+b
+b#b#b#b b2b.b bIbnbsbtbablbabrb babsb bdbebpbebnbdbêbnbcbibabsb
+b\b\b\bbabsbhb
+bpbibpb bibnbsbtbablblb b-brb brbebqbubibrbebmbebnbtbsb.btbxbtb
+b\b\b\b
+b
+b#b#b#b b3b.b bEbxbebcbubtbabrb bob bcbabrbrbebgbabdbobrb bdbeb bdbabdbobsb b(bEbTbLb b&b bDbBbAb)b
+b\b\b\bbabsbhb
+bpbyb bsbrbcb/bdbabtbabbbabsbeb_blbobabdbebrb.bpbyb
+b\b\b\b
+b
+b#b#b#b b4b.b bIbnbibcbibabrb bob bDbabsbhbbbobabrbdb bIbnbtbebrbabtbibvbob
+b\b\b\bbabsbhb
+bpbyb b-bmb bsbtbrbebabmblbibtb brbubnb babpbpb.bpbyb
+b\b\b\b
+b
+b-b-b-b
+b
+b#b#b b👤b bAbubtbobrb
+b
+bDbebsbebnbvboblbvbibdbob bpbobrb b*b*bNbibcbhboblbabsb bMbabrblbobnb bBbabrbbbobsbab bdbeb bSbobubzbab*b*b b b
+b-b b[bLbibnbkbebdbIbnb]b(bhbtbtbpbsb:b/b/bwbwbwb.blbibnbkbebdbibnb.bcbobmb/bibnb/bnbibcbhboblbabsb-bmbabrblbobnb-bbbabrbbbobsbab-bdbeb-bsbobubzbab-b1b6b9bbb5b9b8bbb/b)b b b
+b-b b[bGbibtbHbubbb]b(bhbtbtbpbsb:b/b/bgbibtbhbubbb.bcbobmb/bnbibcbhboblbabsbmbabrblbobnb)b
+b
