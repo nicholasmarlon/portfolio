@@ -26,5 +26,5 @@ Profissional com formação em **Ciência de Dados** e **Gestão em Tecnologia d
 
 ---
 📫 **Vamos conectar?** 
-- [LinkedIn](https://linkedin.com) *(Adicione seu link)*
-- [GitHub](https://github.com/SEU_USUARIO) *(Adicione seu usuário)*
+- [LinkedIn](https://linkedin.com/in/nicholas-marlon-barbosa-de-souza-169b598b/) 
+- [GitHub](https://github.com/nicholasmarlon) 
