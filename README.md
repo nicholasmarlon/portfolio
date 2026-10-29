@@ -1,30 +1,38 @@
-﻿# Olá, sou o Nicholas Barbosa! 👋
+﻿# 🚀 Portfólio de Tecnologia e Análise de Dados
 
-> **Data Scientist & IT Professional** | Specialized in Data Analytics, Business Insights, and Predictive Hardware/Operations Modeling.
-
----
-
-## 🎯 Sobre Mim
-Profissional com formação em **Ciência de Dados** e **Gestão em Tecnologia da Informação**, focado em transformar dados complexos em soluções práticas de negócio, automações e modelos preditivos. Atualmente desenvolvendo projetos voltados para eficiência operacional, FinOps, ESG e análise de frotas/ativos.
+Seja bem-vindo(a) ao meu repositório de projetos! Aqui reúno soluções focadas em **Análise de Dados**, **Engenharia de Dados/DBA** e **Análise Preditiva em Infraestrutura de TI & Telemetria**.
 
 ---
 
-## 🚀 Projetos em Destaque
+## 👤 Sobre Mim
 
-### 1. 🔋 [EcoOps: Hardware Predictive Analytics & FinOps](./ecoops-hw-predict/)
-* **Descrição:** Plataforma end-to-end de manutenção preditiva e gerenciamento do ciclo de vida de hardware. Extrai telemetria de sistemas operacionais, calcula a degradação de baterias e projeta a Vida Útil Restante (RUL) para otimizar custos corporativos (FinOps) e reduzir lixo eletrônico (ESG).
-* **Tech Stack:** Python, BeautifulSoup, Pandas, NumPy, Streamlit.
+- **Nome:** Nicholas Marlon Barbosa de Souza
+- **Formação:** CST em Ciência de Dados & CST em Gestão de Tecnologia da Informação
+- **Localização:** Vitória e Região / Espírito Santo, Brasil
+- **Habilidades Técnicas:** Python (Pandas, NumPy, Streamlit), SQL (SQLite, modelagem de dados), Power BI, Git/GitHub, Análise Preditiva, Telemetria de Hardware, ESG & FinOps.
 
-*(Novos projetos de Data Science e Análise de Dados serão adicionados aqui em breve!)*
+---
+
+## 🔗 Conecte-se Comigo
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nicholas-marlon-barbosa-de-souza-169b598/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nicholasmarlon)
 
 ---
 
-## 🛠️ Competências & Stack Tecnológica
-- **Linguagens & Dados:** Python (Pandas, NumPy, BeautifulSoup, Streamlit), SQL, Análise Estatística.
-- **Áreas de Atuação:** Business Intelligence, Data Analytics, Engenharia de Dados Aplicada, Previsão de Demanda/Degradação.
-- **Ferramentas:** Git, GitHub, Windows PowerShell, VS Code, Google Workspace.
+## 📁 Projetos em Destaque
 
----
-📫 **Vamos conectar?** 
-- [LinkedIn](https://linkedin.com/in/nicholas-marlon-barbosa-de-souza-169b598b/) 
-- [GitHub](https://github.com/nicholasmarlon) 
+### 🔋 1. EcoOps (`/ecoops-hw-predict`)
+> **Plataforma de Análise Preditiva e Telemetria de Hardware**
+>
+> Aplicação interativa em Streamlit desenvolvida para monitoramento de saúde de dispositivos, consumo de bateria, estimativa de vida útil restante (RUL), além de integração com métricas de FinOps e ESG.
+
+### 🚕 2. DriverInsights / Uber Financial Intelligence
+> **Inteligência Financeira e Operacional**
+>
+> Análise e modelagem de dados operacionais, receita líquida por quilômetro e eficiência de combustível utilizando Python, Pandas e SQL.
+
+### 📊 3. FleetAnalytics / Analise Operacional SQL
+> **Análise Operacional de Frotas com SQL e Power BI**
+>
+> Scripts de modelagem condicional em SQLite, pipeline ETL e dashboards corporativos no Power BI para acompanhamento de desempenho de frotas.
